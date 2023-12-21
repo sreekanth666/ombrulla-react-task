@@ -1,5 +1,6 @@
 import React from 'react'
 import './CSS/style.css'
+import { Slide } from 'react-awesome-reveal'
 
 function Analytics() {
     return (
@@ -9,7 +10,7 @@ function Analytics() {
                     <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-2 h-2 md:w-2 md:h-2"><path fill="#0000ff" fill-rule="evenodd" d="m0 4.8q0-1 0.4-1.8 0.3-0.9 1-1.6 0.7-0.7 1.6-1 0.8-0.4 1.8-0.4h14.4q1 0 1.8 0.4 0.9 0.3 1.6 1 0.7 0.7 1 1.6 0.4 0.8 0.4 1.8v14.4q0 1-0.4 1.8-0.3 0.9-1 1.6-0.7 0.7-1.6 1-0.8 0.4-1.8 0.4h-14.4q-1 0-1.8-0.4-0.9-0.3-1.6-1-0.7-0.7-1-1.6-0.4-0.8-0.4-1.8z"></path></svg>
                     <p class="text-medium md:font-bold font-normal">AI DATA ANALYTICS</p>
                 </div>
-                <h3 class="md:text-5xl text-3xl">Empowers Businesses to Make Insightful Decisions</h3>
+                <h3 class="md:text-5xl text-3xl"><Slide>Empowers Businesses to Make Insightful Decisions</Slide></h3>
                 <ul class="mt-6 text-lg list-disc pl-6">
                     <li class="mb-3">
                         <span class="font-semibold">Actionable Insights:</span> AI data analysis enhances decisions, personalizes customer experiences and improve operations.

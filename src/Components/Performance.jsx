@@ -1,5 +1,6 @@
 import React from 'react'
 import './CSS/style.css'
+import { Fade } from 'react-awesome-reveal'
 
 function Performance() {
     return (
@@ -20,7 +21,7 @@ function Performance() {
                 </div>
             </div>
             <div class="max-w-[30rem] flex items-center justify-center mb-10">
-                <img src="https://www.ombrulla.com/_astro/asset-performance-management-software.82e2a11d_29kMe4.webp" alt="Asset Performance Management Software" class="rounded-xl" />
+                <Fade><img src="https://www.ombrulla.com/_astro/asset-performance-management-software.82e2a11d_29kMe4.webp" alt="Asset Performance Management Software" class="rounded-xl" /></Fade>
             </div>
         </div>
     )
