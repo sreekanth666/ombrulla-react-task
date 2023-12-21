@@ -3,7 +3,7 @@ import './CSS/style.css'
 
 function BlogPost({heading, content, name, date, imageUrl, time}) {
     return (
-        <div class="blog-card md:w-2/6 mb-6">
+        <div class="blog-card md:w-2/6 mb-6" data-testid="blogpost-component">
             <img src={imageUrl} class="rounded-lg" />
             <p class="text-xl font-medium mt-3 mb-3">
                 {heading}

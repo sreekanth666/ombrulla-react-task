@@ -10,7 +10,7 @@ function Navbar() {
     const [toggleMobileDrawer1, setToggleMobileDrawer1] = useState(false)
     const [toggleMobileDrawer2, setToggleMobileDrawer2] = useState(false)
     return (
-        <div className="py-4 md:mx-12 mx-5" >
+        <div className="py-4 md:mx-12 mx-5" data-testid="navbar-component">
             <nav className="flex items-center justify-between md:mx-12 relative">
                 <div class="logo">
                     <img src="https://www.ombrulla.com/logo.svg" alt="Ombrulla Logo" class="cursor-pointer h-8 md:h-8" />

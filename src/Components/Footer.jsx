@@ -3,7 +3,7 @@ import './CSS/style.css'
 
 function Footer() {
     return (
-        <div class="dvh mt-16 products p-3 pt-24 md:px-20 bg-[#04102a] text-[#8A99B4]">
+        <div class="dvh mt-16 products p-3 pt-24 md:px-20 bg-[#04102a] text-[#8A99B4]" data-testid="footer-component">
             <div class="flex flex-wrap md:flex-nowrap gap-x-7 gap-y-7">
                 <div class="w-full md:w-1/4 mb-6">
                     <p class="font-medium text-2xl text-[white]">About US</p>

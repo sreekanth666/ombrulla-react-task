@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 
 function Hero() {
     return (
-        <div class="landing mb-24">
+        <div class="landing mb-24" data-testid="hero-component">
             <Navbar />
         
             <div class="md:px-24 px-5 md:pt-0 flex flex-col md:flex-row font-semibold gap-3 h-full">

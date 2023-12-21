@@ -3,7 +3,7 @@ import './CSS/style.css'
 
 function Performance() {
     return (
-        <div class="dvh mt-8 management p-3 md:px-20 flex flex-wrap gap-y-20 md:flex-nowrap items-center gap-x-7 bg-blue-700 text-white">
+        <div class="dvh mt-8 management p-3 md:px-20 flex flex-wrap gap-y-20 md:flex-nowrap items-center gap-x-7 bg-blue-700 text-white" data-testid="performance-component">
             <div>
                 <div class="flex flex-col md:gap-x-4 gap-x-2 mb-4">
                     <img src="https://www.ombrulla.com/_astro/petran-logo.99970d82_1t8FzR.webp" alt="Petran" className='petran-img' />

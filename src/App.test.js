@@ -1,12 +1,20 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders components in App', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-  const { getByTestId } = render(<App />);
-  expect(getByTestId('hero-component')).toBeInTheDocument();
-  expect(getByTestId('best-service-provider-component')).toBeInTheDocument();
-  expect(getByTestId('footer-component')).toBeInTheDocument();
+  
+  // Check for elements by their data-testid
+  expect(screen.getByTestId('hero-component')).toBeInTheDocument();
+  expect(screen.getByTestId('service-component')).toBeInTheDocument();
+  expect(screen.getByTestId('blog-component')).toBeInTheDocument();
+  expect(screen.getByTestId('infrastructure-component')).toBeInTheDocument();
+  expect(screen.getByTestId('navbar-component')).toBeInTheDocument();
+  expect(screen.getByTestId('customer-component')).toBeInTheDocument();
+  expect(screen.getByTestId('performance-component')).toBeInTheDocument();
+  expect(screen.getByTestId('products-component')).toBeInTheDocument();
+  expect(screen.getByTestId('testimonial-component')).toBeInTheDocument();
+  expect(screen.getByTestId('trust-component')).toBeInTheDocument();
+  expect(screen.getByTestId('visual-component')).toBeInTheDocument();
+  expect(screen.getByTestId('footer-component')).toBeInTheDocument();
 });

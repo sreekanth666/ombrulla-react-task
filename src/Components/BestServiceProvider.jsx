@@ -3,7 +3,7 @@ import './CSS/style.css'
 
 function BestServiceProvider() {
     return (
-        <div class="service-provider m-3 md:m-auto">
+        <div class="service-provider m-3 md:m-auto" data-testid="service-component">
             <div class="flex flex-col box md:gap-4 gap-3 md:rounded-[3rem] rounded-[2rem] p-7 py-12 md:p-24 md:h-5/6 md:w-5/6 mx-auto my-auto">
                 <div class="flex gap-x-4 items-center">
                     <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-2 h-2 md:w-2 md:h-2"><path fill="#0000ff" fill-rule="evenodd" d="m0 4.8q0-1 0.4-1.8 0.3-0.9 1-1.6 0.7-0.7 1.6-1 0.8-0.4 1.8-0.4h14.4q1 0 1.8 0.4 0.9 0.3 1.6 1 0.7 0.7 1 1.6 0.4 0.8 0.4 1.8v14.4q0 1-0.4 1.8-0.3 0.9-1 1.6-0.7 0.7-1.6 1-0.8 0.4-1.8 0.4h-14.4q-1 0-1.8-0.4-0.9-0.3-1.6-1-0.7-0.7-1-1.6-0.4-0.8-0.4-1.8z"></path></svg>
